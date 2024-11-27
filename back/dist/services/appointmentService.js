@@ -61,7 +61,7 @@ var getAppointmentByIdService = function (id) { return __awaiter(void 0, void 0,
     return __generator(this, function (_a) {
         switch (_a.label) {
             case 0: return [4, appointmentModel.findOne({
-                    where: { id: id }, relations: ["users"]
+                    where: { id: id }, relations: ["user"]
                 })];
             case 1:
                 foundAppointment = _a.sent();
