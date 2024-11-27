@@ -1,0 +1,17 @@
+.logo {
+  width: 12vw; 
+  height: auto; 
+  margin: 1rem;
+  background-color: #EBF5FB ;
+  border-radius: 50%;
+  animation: rotateLogo 5s linear infinite alternate; 
+}
+
+@keyframes rotateLogo {
+  0% {
+      transform: rotate(-8deg); 
+  }
+  100% {
+      transform: rotate(8deg); 
+  }
+}

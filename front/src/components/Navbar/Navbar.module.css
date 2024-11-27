@@ -1,0 +1,38 @@
+.navbar {
+  width: 95%;
+  height: 3rem;
+  background: #E74C3C;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  font-family: sans-serif, Arial;
+}
+
+.navbar span,
+.link {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar span:hover,
+.link:hover {
+  background-color: #1B2631;
+  cursor: pointer;
+}
+
+.register {
+  margin-right: 0; /* Eliminado el margen derecho */
+}
+
+.login:hover,
+.register:hover {
+  color: #1B2631;
+  background-color: #ffffff;
+}
+
+.perfil {
+  margin-right: 15px; 
+}

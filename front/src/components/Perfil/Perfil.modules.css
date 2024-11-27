@@ -1,0 +1,70 @@
+/* Perfil.module.css */
+
+/* Estilo base para todos los botones */
+.button {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: background-color 0.2s;
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Estilo para el botón de Perfil */
+  .perfil {
+    position: relative;
+    color: white;
+  }
+  
+  .perfil:hover {
+    background-color: #1B2631;
+    cursor: pointer;
+  }
+  
+  /* Estilo para el botón de Mis Turnos */
+  .misTurnos {
+    color: white;
+  }
+  
+  .misTurnos:hover {
+    background-color: #1B2631;
+    cursor: pointer;
+  }
+  
+  /* Estilo para el botón de Cerrar Sesión */
+  .cerrarSesion {
+    color: white;
+  }
+  
+  .cerrarSesion:hover {
+    background-color: #1B2631;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el menú de opciones del perfil */
+  .perfil__opciones {
+    position: absolute;
+    top: calc(100% + 5px);
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+  }
+  
+  .perfil__opcion {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .perfil__opcion:last-child {
+    margin-bottom: 0;
+  }
+  
+  .perfil__opcion:hover {
+    color: #007bff;
+  }
+  

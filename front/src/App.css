@@ -1,0 +1,13 @@
+body{
+  background-color: #1B2631 ;
+  color: #EAECEE  ;
+  
+}
+h1 {
+  margin: 0; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100%; 
+  font-family: sans-serif,  Arial ;
+};
