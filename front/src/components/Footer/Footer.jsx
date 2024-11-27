@@ -21,11 +21,11 @@ function Footer() {
                 </div>
                 <div className="footer__section">
                     <h3>Información Adicional</h3>
-                    <p>Esta aplicacion fue creada como proyecto integrador del modulo 3 de Soy Henty</p>
+                    <p>Esta aplicacion fue creada como proyecto final para el Bootcamp de Talento Tech</p>
                 </div>
             </div>
             <div className="footer__bottom">
-                <p>&copy; 2024 Creada por John Lozano FT49 - Todos los derechos reservados</p>
+                <p>&copy; 2024 Creada por John Lozano  - Todos los derechos reservados</p>
             </div>
         </footer>
     );
